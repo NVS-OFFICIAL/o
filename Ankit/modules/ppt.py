@@ -18,9 +18,8 @@ PHOTO = [
     "https://telegra.ph/file/8a08b66b51c8af4155cc5.jpg",
     "https://telegra.ph/file/aac4a2d3a7dc8dc7b8372.jpg",
     "https://telegra.ph/file/8cc851e5f40ae728bfaa9.jpg",
-    "https://telegra.ph/file/10e0f8893cec365756b3c.jpg",
-    
-]
+    "https://telegra.ph/file/10e0f8893cec365756b3c.jpg"
+    ]
 
 @register(pattern=("/ppt"))
 async def awake(event):
