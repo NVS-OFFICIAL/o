@@ -42,7 +42,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "2127221861"
+         "value": "1529762884"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -54,12 +54,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without @",
-         "value": "XnKiTKuMaR"
+         "value": "sassy-os"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username without @",
          "required": true,
-         "value": "xnkit_k"
+         "value": "nvs_x"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -69,12 +69,12 @@
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001644460193"
+         "value": "-1001669004469"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001644460193"
+         "value": "-1001669004469"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -94,7 +94,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother ANKIT Support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "2127221861"
+         "value": "2127221861 1529762884"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -108,22 +108,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "2127221861"
+         "value": "2127221861 1529762884"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "2127221861"
+         "value": "2127221861 1529762884"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "2127221861"
+         "value": "2127221861 1529762884"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "2127221861"
+         "value": "2127221861 1529762884"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -142,7 +142,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": "https://appname.herokuapp.com/"
+         "value": "https://{}.herokuapp.com/"
       },
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
