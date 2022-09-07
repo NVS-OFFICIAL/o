@@ -1,6 +1,5 @@
 import os
 import re
-import random
 from platform import python_version as kontol
 from telethon import events, Button
 from telegram import __version__ as telever
@@ -36,7 +35,7 @@ async def awake(event):
   TEXT = f"THIS PROJECT CAN HELP THE SOCIETY FROM BEING ROBBED, CHEATED AND THEY CAN GET A SECURE MODE OF COMMUNICATION."
   TEXT = f"𝓣𝓗𝓐𝓝𝓚  𝓨𝓞𝓤"
 
-  ran = random.choice(PHOTO)
+ 
   await tbot.send_file(event.chat_id, ran, caption=TEXT)
 
 ## Alive mod By @XNKIT
