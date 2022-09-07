@@ -11,17 +11,17 @@ from Ankit import telethn as tbot
 
 
 PHOTO = [
-    "https://telegra.ph/file/6b1d7cb290d37f4bc25f6.jpg",
+    "https://telegra.ph/file/17305d0a45a7ed3ef9d9d.jpg",
 ]
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),ɪ ᴀᴍ ᴀɴᴋɪᴛ 🇮🇳 **\n━━━━━━━━━━━━━━━━━━━\n"
-  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ᴀɴᴋɪᴛ 🇮🇳](https://t.me/XnKiTKuMaR)** \n"
+  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),ɪ ᴀᴍ ᴘʀᴏᴊᴇᴄᴛ-x **\n━━━━━━━━━━━━━━━━━━━\n"
+  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ᴛᴇᴀᴍ ᴘʀᴏᴊᴇᴄᴛ-x](https://github.com/nvs-official)** \n"
   TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n"
   TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
-  BUTTON = [[Button.url("🔹ʜᴇʟᴘ🔹", "https://t.me/XNKITKBOT?start=help"), Button.url("⭐ᴅᴇᴠᴇʟᴏᴘᴇʀ⭐", "https://t.me/XnKiTKuMaR")]]
+  BUTTON = [[Button.url("🔹ʜᴇʟᴘ🔹", "https://t.me/NVS_X_BOT?start=help"), Button.url("⭐ᴅᴇᴠᴇʟᴏᴘᴇʀ⭐", "https://github.com/nvs-official")]]
   ran = random.choice(PHOTO)
   await tbot.send_file(event.chat_id, ran, caption=TEXT,  buttons=BUTTON)
 
-## Alive mod
+## Alive mod By @XNKIT
