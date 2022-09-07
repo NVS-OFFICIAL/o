@@ -57,36 +57,11 @@ async def _(event):
     await event.reply(got)
 
 
-@register(pattern="^/synonyms")
-async def _(event):
-    text = event.text[len("/synonyms ") :]
-    word = f"{text}"
-    let = dictionary.synonym(word)
-    set = str(let)
-    jet = set.replace("{", "")
-    net = jet.replace("}", "")
-    got = net.replace("'", "")
-    await event.reply(got)
-
-
-@register(pattern="^/antonyms")
-async def _(event):
-    text = message.text[len("/antonyms ") :]
-    word = f"{text}"
-    let = dictionary.antonym(word)
-    set = str(let)
-    jet = set.replace("{", "")
-    net = jet.replace("}", "")
-    got = net.replace("'", "")
-    await event.reply(got)
-
 
 
 __help__ = """
  ❍ /define <text>*:* Type the word or expression you want to search\nFor example /define kill
  ❍ /spell*:* while replying to a message, will reply with a grammar corrected version
- ❍ /synonyms <word>*:* Find the synonyms of a word
- ❍ /antonyms <word>*:* Find the antonyms of a word
 """
 
 __mod_name__= "Eɴɢʟɪsʜ"
