@@ -10,16 +10,15 @@ from Ankit.events import register
 from Ankit import telethn as tbot
 
 
-PHOTO = [
-    "https://telegra.ph/file/117e9fdda7a7621d5e106.jpg",
-    "https://telegra.ph/file/e441fed95804b41b1326a.jpg",
-    "https://telegra.ph/file/21c6c1974c85f386b3523.jpg",
-    "https://telegra.ph/file/32f6f217e1d71b5fbdcb4.jpg",
-    "https://telegra.ph/file/8a08b66b51c8af4155cc5.jpg",
-    "https://telegra.ph/file/aac4a2d3a7dc8dc7b8372.jpg",
-    "https://telegra.ph/file/8cc851e5f40ae728bfaa9.jpg",
-    "https://telegra.ph/file/10e0f8893cec365756b3c.jpg"
-    ]
+PHOTO = [ "https://telegra.ph/file/117e9fdda7a7621d5e106.jpg",
+          "https://telegra.ph/file/e441fed95804b41b1326a.jpg",
+          "https://telegra.ph/file/21c6c1974c85f386b3523.jpg",
+          "https://telegra.ph/file/32f6f217e1d71b5fbdcb4.jpg",
+          "https://telegra.ph/file/8a08b66b51c8af4155cc5.jpg",
+          "https://telegra.ph/file/aac4a2d3a7dc8dc7b8372.jpg",
+          "https://telegra.ph/file/8cc851e5f40ae728bfaa9.jpg",
+          "https://telegra.ph/file/10e0f8893cec365756b3c.jpg"
+        ]
 
 @register(pattern=("/ppt"))
 async def awake(event):
