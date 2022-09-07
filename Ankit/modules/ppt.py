@@ -31,6 +31,6 @@ async def awake(event):
   TEXT = f"𝓣𝓗𝓐𝓝𝓚  𝓨𝓞𝓤​"
 
   ran = random.choice(PHOTO)
-  await tbot.send_file(event.chat_id, ran, caption=TEXT,  buttons=BUTTON)
+  await tbot.send_file(event.chat_id, ran, caption=TEXT)
 
 ## Alive mod By @XNKIT
